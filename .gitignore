@@ -13,3 +13,4 @@ test.py
 # Environments
 .venv
 .pem
+.env
