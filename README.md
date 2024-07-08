@@ -16,7 +16,7 @@
 git clone  https://github.com/GaurKS/analytica.git
 ```
 
-- Change directory to backend and install all the packages in requirements.txt
+- Change directory to root and install all the packages in requirements.txt
 
 ```
 cd analytica
