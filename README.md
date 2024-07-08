@@ -66,3 +66,9 @@ https://drive.google.com/uc?id=1ZIMlNQ226uaFvTId8ineajrBmWdQB2Ew&export=download
 ```
 
 Complete details related to application endpoints, request body, query parameters and sample response can be found in the [API documentation](http://3.108.184.193/docs)
+
+Docker Image is available on [DockerHub](https://hub.docker.com/repository/docker/krugarr/fastapi-app-analytica/general) 
+
+All the deployed endpoints can be accessed at  `http://3.108.184.193/`
+
+For deployment, T2.micro instance is used under AWS free cloud credits. For database, Clickhouse free cloud instance is used.
