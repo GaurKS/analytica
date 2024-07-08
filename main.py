@@ -34,16 +34,7 @@ def get_batch_size():
     settings = get_settings()
     return settings.BATCH_SIZE
 
-# client = Client(
-#     host="fysj45ubw1.ap-south-1.aws.clickhouse.cloud",
-#     user="default",
-#     password="O6Dc5l40TH_ev",
-#     secure=True,
-#     compression=True,
-# )
-
 #  app logic
-
 # sanitize column names
 def sanitize_column_name(column_name: str) -> str:
     return column_name.replace(" ", "_").replace("-", "_").lower()
