@@ -72,3 +72,5 @@ Docker Image is available on [DockerHub](https://hub.docker.com/repository/docke
 All the deployed endpoints can be accessed at  `http://3.108.184.193/`
 
 For deployment, T2.micro instance is used under AWS free cloud credits. For database, Clickhouse free cloud instance is used.
+
+`Note`: Initial database call can take upto several seconds as the DB instance is in idle state, Once the first call is made the following calls will have much lesser response time. The intial response time is mainly because of the cold start of the Clickhouse DB instance. 
